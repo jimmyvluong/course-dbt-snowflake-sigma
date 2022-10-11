@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: postgres__addresses
+  - name: postgres__events
+  - name: postgres__orders
+  - name: postgres__order_items
+  - name: postgres__products
+  - name: postgres__promos
+  - name: postgres__users
