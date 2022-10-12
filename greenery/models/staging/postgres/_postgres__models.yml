@@ -1,10 +1,13 @@
 version: 2
+# also referred to as "schema"
+# here we can specify names of the models, detailed information for columns in those models, 
+# and tests for those columns
 
 models:
   - name: postgres__addresses
-  - name: postgres__events
-  - name: postgres__orders
-  - name: postgres__order_items
-  - name: postgres__products
-  - name: postgres__promos
-  - name: postgres__users
+  # - name: postgres__events
+  # - name: postgres__orders
+  # - name: postgres__order_items
+  # - name: postgres__products
+  # - name: postgres__promos
+  # - name: postgres__users
