@@ -1,5 +1,5 @@
 version: 2
-
+# you must list your sources under "tables" here
 sources:
 
   - name: src_postgres
@@ -18,3 +18,8 @@ sources:
     tables:
       - name: addresses      
       - name: events
+      - name: orders
+      - name: order_items
+      - name: products
+      - name: promos
+      - name: users
